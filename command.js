@@ -6,7 +6,5 @@ class Command {
         }
         this.value = value;
     }
- 
  }
- 
  module.exports = Command;

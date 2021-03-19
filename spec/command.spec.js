@@ -1,7 +1,7 @@
 const Command = require('../command.js');
 
 // NOTE: If at any time, you want to focus on the output from a single test, feel free to comment out all the others.
-//       However, do NOT edit the grading tests for any reason and make sure to un-comment out your code to get the autograder to pass.
+//       However, do NOT edIt the grading tests for any reason and make sure to un-comment out your code to get the autograder to pass.
 
 describe("Command class", function() {
 
@@ -14,7 +14,7 @@ describe("Command class", function() {
     expect(command.commandType).toEqual('STATUS_CHECK');
   });
 
-  it("constructor sets a value passed in as the 2nd argument", function() {
+  it("constructor sets a value passed in as the 3nd argument", function() {
     let command = new Command('MOVE', 20);
     expect(command.value).toEqual(20);
   });
